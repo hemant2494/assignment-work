@@ -1,0 +1,61 @@
+.container-fluid
+{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.content{
+  background: #fff none repeat scroll 0 0;
+
+  border-radius: 3px;
+  padding: 10px;
+  float: left;
+  width: 100%;
+}
+a{
+  font-size: 25px;
+}
+p{
+  font-size: 20px;
+}
+@media screen and (max-width: 480px) {
+
+  .container-fluid
+  {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .content{
+    background: #fff none repeat scroll 0 0;
+
+    border-radius: 3px;
+    padding: 10px;
+    float: left;
+    width: 100%;
+  }
+  a{
+    font-size: 15px;
+  }
+  p{
+    font-size: 10px;
+  }
+
+
+}
+@media screen and (min-width: 780px) {
+  .content{
+    background: #fff none repeat scroll 0 0;
+
+    border-radius: 3px;
+    padding: 10px;
+    float: left;
+    width: 100%;
+  }
+  a{
+    font-size: 25px;
+  }
+  p{
+    font-size: 20px;
+  }
+
+
+}

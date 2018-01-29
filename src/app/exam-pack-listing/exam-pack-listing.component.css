@@ -1,0 +1,24 @@
+@media screen and (max-width:480px){
+    .container-fluid{
+       margin-left: 0px;
+       margin-right: 0px;
+       
+    }
+    .card
+    {
+       width: 30rem; 
+       float:left;
+    }
+}
+@media screen and (min-width:780px){
+    .container-fluid{
+       margin-left: 0px;
+       margin-right: 0px;
+       
+    }
+    .card
+    {
+       width: 30rem; 
+       float:left;
+    }
+}

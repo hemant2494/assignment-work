@@ -1,0 +1,140 @@
+<!--<div id="portfolio" class="container-fluid text-center bg-grey">
+  <h2>Exams Pack</h2><br>
+  <h4>Cards Started</h4>
+
+
+  <div class = 'container'>
+  <div class = "row">
+      <div class = "col-md-12">
+          <div class="dropdown">
+              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Sort By Class
+              <span class="caret"></span></button>
+              <ul class="dropdown-menu">
+                <li (click)="my(1)"> 1 </li>
+                <li (click)="my(2)"> 2 </li>
+                <li (click)="my(3)"> 3 </li>
+              </ul>
+            </div>
+    </div>
+  </div>
+  <div class = "container mydiv">
+   
+   <div class = "row">
+      <div class="col-sm-10 col-md-4" *ngFor="let item of mycard | sortClass : x "  >
+      <div class="thumbnail" *ngFor='let i of imodel'>
+        <img src ="{{item.imgpath}}" alt="Not Found" class="myimg" width="400" height="300">
+        <!--<p><strong>{{item.imgdesc}}</strong></p>
+        <p>Education System Class {{item.class}}</p>-->
+     <!--<table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Id</th>
+               <th> Class</th>
+                <th>Subject</th>
+                <th>No Of Test</th>
+                <th>Price</th>
+
+              </tr>
+            </thead>
+            <tbody>
+              <tr >
+                <td>{{i.id}}</td>
+                <td>{{i.standard}}</td>
+                <td>{{i.subjects}}</td>
+                <td>{{i.noOfTest}}</td>
+                <td>{{i.price}}</td>
+            
+              </tr>
+            
+            </tbody>
+          </table>
+        </div>
+    </div>
+ </div>-->
+ 
+
+ 
+ <!--<div class="container">
+  <h3>Exam Pack</h3>
+
+  <ul class="nav nav-pills nav-stacked">
+    <li class="active" ><a href="#" class="text-center">Exam Pack Listing</a></li>
+   
+  </ul>
+</div>-->
+<!--<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+<div class="card" style="width: 18rem;margin:2rem; border:2px solid black; display:inline-block;" *ngFor="let i of imodel">
+  <img class="card-img-top" src="./assets/Book6.jpg" alt="Card image cap" >
+  <div class="card-body">
+    <h4 class="card-title">Listing Exam Pack</h4>
+    <p class="card-text"><label>Subject: </label>{{i.subjects}}</p>
+    <p class="card-text"><label>Id:</label>{{i.id}}</p>
+    <p class="card-text"><label>Class:</label>{{i.standard}}</p>
+    <p class="card-text"><label>No Of Test:</label>{{i. noOfTest}}</p>
+    <p class="card-text"><label>Price:</label>{{i. price}}</p>
+    
+  
+  </div>
+</div>
+    </div>
+  </div></div>
+
+
+  <div class="card" *ngFor="let i of imodel">
+      <img class="card-img" src="/images/pathToYourImage.png" alt="Card image">
+      <div class="card-img-overlay">
+        <p class="card-text">I'm text that has a background image!</p>
+      </div>
+    </div>-->
+
+    
+    <div class="container-fluid" class="text-center">
+        <h3>Exam Pack</h3>
+      
+        <ul class="nav nav-pills nav-stacked">
+          <li class="active" ><a href="#" class="text-center">Exam Pack Listing</a></li>
+         
+        </ul>
+    </div>
+    <div class="container-fluid">
+    <div class="card" style="width: 30rem;margin:6rem; border:1px solid #dae5ea; display:inline-block; background-color: #ede7e1;"  *ngFor="let i of imodel">
+      <div class="card-body" >
+        <p class="card-text" class="text-center" style="color:#617791" >Exam Pack</p>
+      </div>
+      <img class="img-responsive img-fluid"
+      src="./assets/images/ExamPack/FirstExam.jpg"  class="img-thumbnail" alt="Card image" style="border-radius:10px;" >
+      <div class="card-body" >
+          <table class="table table-striped">
+              <thead>
+                <tr style="color:#617791">
+                  <th>Exam Pack</th>
+                 <th> Class</th>
+                  <th>Subject</th>
+                  <th>No Of Test</th>
+                 
+  
+                </tr>
+              </thead>
+              <tbody>
+                <tr >
+                  <td>{{i.id}}</td>
+                  <td>{{i.standard}}</td>
+                  <td><span>{{i.subjects}}</span></td>
+                  <td>{{i.noOfTest}}</td>
+                  
+              
+                </tr>
+              
+              </tbody>
+            </table>
+          
+          <!--<p class="card-text"><label>Subject: </label>{{i.subjects}}</p>
+          <p class="card-text"><label>Id:</label>{{i.id}}</p>
+          <p class="card-text"><label>Class:</label>{{i.standard}}</p>
+          <p class="card-text"><label>No Of Test:</label>{{i. noOfTest}}</p>
+          <p class="card-text"><label>Price:</label>{{i. price}}</p>-->
+      </div>
+    </div>
+  </div>

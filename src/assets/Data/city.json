@@ -1,0 +1,13 @@
+[{"cityID":1 , "cityName":"Delhi" , "countryID":1},
+    {"cityID":2 , "cityName":"Jaipur" , "countryID":1},
+    {"cityID":3 , "cityName":"Alwar" , "countryID":1},
+
+{"cityID":4 , "cityName":"Washington" , "countryID":2},
+{"cityID":5 , "cityName":"Boston" , "countryID":2},
+{"cityID":6 , "cityName":"NewYork" , "countryID":2},
+
+{"cityID":7 , "cityName":"Tokyo" , "countryID":3},
+{"cityID":8 , "cityName":"Kyoto" , "countryID":3},
+{"cityID":9 , "cityName":"Osaka"  , "countryID":3}
+
+]
